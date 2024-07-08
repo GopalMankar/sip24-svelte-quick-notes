@@ -88,8 +88,8 @@
     <h1 class="text-3xl font-bold" contenteditable bind:textContent={title}></h1>
     <div class="flex space-x-2 ml-auto col-span-2 justify-end">
       <button class="bg-gray-800 text-white px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-gray-900" on:click={saveNote}>Save</button>
-      <button class="bg-yellow-500 text-white px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-yellow-600" on:click={duplicatePage}>Duplicate</button>
-      <button class="bg-red-600 text-white px-5 py-2.5 rounded-lg font-medium text-sm hover:bg-red-700" on:click={deletePage}>Delete</button>
+      <button class="bg-yellow-500 text-white px-5 py-2.5 rounded-lg font medium text-sm" on:click={duplicatePage}>Duplicate</button>
+      <button class="bg-red-600 text-white px-5 py-2.5 rounded-lg font-medium text-sm " on:click={deletePage}>Delete</button>
     </div>
   </div>
   <hr/>
@@ -109,15 +109,8 @@
     background: #f87171;
   }
 
-  .bg-red-700 {
-    background: #ef4444;
-  }
-
   .bg-yellow-500 {
     background: #f59e0b;
   }
 
-  .bg-yellow-600 {
-    background: #d97706;
-  }
 </style>
